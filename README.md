@@ -18,14 +18,14 @@ The goal is to achieve the lowest average number of shots when the game is playe
 The Battleship API's public methods are listed below:
 
 
-• BattleShip() - This function creates a battleship game instance.
+    • BattleShip() - This function creates a battleship game instance.
 
-• boolean shoot(Point shot) - This function points each shot in the game.
+    • boolean shoot(Point shot) - This function points each shot in the game.
  
-• int numberOfShipsSunk() - This function returns the total number of ships sunk at any point during the game. 
+    • int numberOfShipsSunk() - This function returns the total number of ships sunk at any point during the game. 
 
-• boolean allSunk() - This function returns a boolean value that indicates whether all the ships have been sunk.
+    • boolean allSunk() - This function returns a boolean value that indicates whether all the ships have been sunk.
 
-• int totalShotsTaken() - This function returns the total number of shots taken. 
+    • int totalShotsTaken() - This function returns the total number of shots taken. 
 
-• int[] shipSizes() - This function returns an array of the ship sizes. The number of ships present is indicated by the length of the array. For the game, this array is fixed, with ship sizes of 2,3,3,4,5. When a ship is sunk, it does not update.
+    • int[] shipSizes() - This function returns an array of the ship sizes. The number of ships present is indicated by the length of the array. For the game, this array is fixed, with ship sizes of 2,3,3,4,5. When a ship is sunk, it does not update.
